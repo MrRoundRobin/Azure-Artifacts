@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Adobe Acrobat Reader DC",
+    "publisher": "MrRoundRobin",
+    "description": "More powerful than other PDF software, Adobe Acrobat Reader DC is the free, trusted standard for viewing, printing, and annotating PDFs. And now, it’s connected to Adobe Document Cloud — so it’s easier than ever to work with PDFs on computers and mobile devices.",
+    "tags": [
+        "Windows",
+        "Adobe",
+        "Reader",
+        "PDF",
+        "Acrobat"
+    ],
+    "iconUri": "https://chocolatey.org/content/packageimages/adobereader.2018.011.20063.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'adobereader', '\"')]"
+    }
+}
