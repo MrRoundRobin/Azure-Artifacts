@@ -11,6 +11,6 @@
     "iconUri": "https://avatars2.githubusercontent.com/u/5614224?s=200&v=4",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass \"& ./install-greenshoot.ps1\""
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass \"& ./install-greenshot.ps1\""
     }
 }

@@ -11,7 +11,7 @@
         "Excel",
         "PowerPoint"
     ],
-    "iconUri": "https://avatars2.githubusercontent.com/u/5614224?s=200&v=4",
+    "iconUri": "https://chocolatey.org/content/packageimages/OpenOffice.4.1.5.svg",
     "targetOsType": "Windows",
     "runCommand": {
         "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'openoffice', '\"')]"
