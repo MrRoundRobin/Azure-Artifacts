@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "PDF Creator",
+    "publisher": "MrRoundRobin",
+    "description": "PDFCreator easily creates PDFs from any Windows program. Use it like a printer in Word, StarCalc or any other Windows application.",
+    "tags": [
+        "Windows",
+        "PDF"
+    ],
+    "iconUri": "https://chocolatey.org/content/packageimages/PDFCreator.3.3.0.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'pdfcreator', '\"')]"
+    }
+}
